@@ -1,0 +1,552 @@
+JavaScript strict warning: resource://gre/modules/TelemetryEnvironment.jsm, line 1131: ReferenceError: reference to undefined property "nsIShellService"
+2017-12-20T07:34:26.477Z [DEBUG] Gecko version: 52.4.0
+2017-12-20T07:34:26.477Z [DEBUG] script args: crawl/spin_test.js http://www.smfms.cn/2016/fms_column.asp?col_id=11
+2017-12-20T07:34:26.478Z [DEBUG] Configuration: debug=true
+2017-12-20T07:34:26.478Z [DEBUG] Configuration: Script=/usr/share/node/scanner-core/crawl/spin_test.js
+2017-12-20T07:34:26.478Z [DEBUG] Configuration: workingDirectory=/usr/share/node/scanner-core
+JavaScript strict warning: coffee-scripts.js, line 8: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: coffee-scripts.js, line 8: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: coffee-scripts.js, line 8: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: coffee-scripts.js, line 8: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: coffee-scripts.js, line 8: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: coffee-scripts.js, line 8: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: coffee-scripts.js, line 8: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: coffee-scripts.js, line 8: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: coffee-scripts.js, line 8: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: coffee-scripts.js, line 8: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: coffee-scripts.js, line 8: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: coffee-scripts.js, line 8: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: coffee-scripts.js, line 8: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: coffee-scripts.js, line 8: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: coffee-scripts.js, line 8: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: coffee-scripts.js, line 8: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: coffee-scripts.js, line 8: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: coffee-scripts.js, line 8: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: coffee-scripts.js, line 8: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: coffee-scripts.js, line 8: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: coffee-scripts.js, line 8: ReferenceError: reference to undefined property "fs"
+2017-12-20T07:34:26.903Z [DEBUG] webpage: openUrl http://www.smfms.cn/2016/fms_column.asp?col_id=11 conf:{operation: "get", } 
+2017-12-20T07:34:26.910Z [DEBUG] network: main request starting - http://www.smfms.cn/2016/fms_column.asp?col_id=11 flags:START,IS_REQ,IS_DOC,IS_NET,IS_WIN,
+2017-12-20T07:34:26.912Z [DEBUG] network: resource request #1 started: GET - http://www.smfms.cn/2016/fms_column.asp?col_id=11 flags=DOCUMENT_URI, INITIAL_DOCUMENT_URI, 
+REQUEST:  {"id":1,"method":"GET","url":"http://www.smfms.cn/2016/fms_column.asp?col_id=11","time":"2017-12-20T07:34:26.912Z","headers":[{"name":"Host","value":"www.smfms.cn"},{"name":"User-Agent","value":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36"},{"name":"Accept","value":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},{"name":"Accept-Language","value":"en-US,en;q=0.5"},{"name":"Accept-Encoding","value":"gzip, deflate"}]} 
+2017-12-20T07:34:26.939Z [DEBUG] network: status change for http://www.smfms.cn/2016/fms_column.asp?col_id=11 (2152398858): Waiting for www.smfms.cn…
+JavaScript strict warning: chrome://global/content/bindings/browser.xml, line 389: ReferenceError: reference to undefined property "localName"
+2017-12-20T07:34:26.979Z [DEBUG] network: status change for http://www.smfms.cn/2016/fms_column.asp?col_id=11 (2152398858): Waiting for www.smfms.cn…
+TRACE: Url Before Go back 
+TRACE: After Url Go back 1 
+2017-12-20T07:34:27.010Z [DEBUG] network: resource #1 response 'start': http://www.smfms.cn/2016/fms_column.asp?col_id=11 flags=DOCUMENT_URI, INITIAL_DOCUMENT_URI, TARGETED, 
+2017-12-20T07:34:27.011Z [DEBUG] network: status change for http://www.smfms.cn/2016/fms_column.asp?col_id=11 (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.011Z [DEBUG] network: main request http://www.smfms.cn/2016/fms_column.asp?col_id=11 flags:TRANSFERRING,IS_REQ,IS_DOC,
+2017-12-20T07:34:27.011Z [DEBUG] network: main request: transfer started
+2017-12-20T07:34:27.011Z [DEBUG] network: progress total:27156/27156; uri: 27156/27156 for http://www.smfms.cn/2016/fms_column.asp?col_id=11
+2017-12-20T07:34:27.012Z [DEBUG] network: resource #1 response end status: http://www.smfms.cn/2016/fms_column.asp?col_id=11
+2017-12-20T07:34:27.013Z [DEBUG] network: main request http://www.smfms.cn/2016/fms_column.asp?col_id=11 flags:STOP,IS_REQ,
+2017-12-20T07:34:27.013Z [DEBUG] network: main request: transfer done
+2017-12-20T07:34:27.051Z [DEBUG] network: request ignored: http://www.smfms.cn/2016/include/css.css flags:START,IS_REQ,
+2017-12-20T07:34:27.052Z [DEBUG] network: resource request #2 started: GET - http://www.smfms.cn/2016/include/css.css flags=
+REQUEST:  {"id":2,"method":"GET","url":"http://www.smfms.cn/2016/include/css.css","time":"2017-12-20T07:34:27.052Z","headers":[{"name":"Host","value":"www.smfms.cn"},{"name":"User-Agent","value":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36"},{"name":"Accept","value":"text/css,*/*;q=0.1"},{"name":"Accept-Language","value":"en-US,en;q=0.5"},{"name":"Accept-Encoding","value":"gzip, deflate"},{"name":"Referer","value":"http://www.smfms.cn/2016/fms_column.asp?col_id=11"},{"name":"Cookie","value":"ASPSESSIONIDQQBRSBAT=LBILHEGANAPBDEPEJHHKAFIC"}]} 
+2017-12-20T07:34:27.053Z [DEBUG] network: request ignored: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js flags:START,IS_REQ,
+2017-12-20T07:34:27.054Z [DEBUG] network: resource request #3 started: GET - http://www.smfms.cn/2016/js/jquery-2.0.0.min.js flags=
+REQUEST:  {"id":3,"method":"GET","url":"http://www.smfms.cn/2016/js/jquery-2.0.0.min.js","time":"2017-12-20T07:34:27.054Z","headers":[{"name":"Host","value":"www.smfms.cn"},{"name":"User-Agent","value":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36"},{"name":"Accept","value":"*/*"},{"name":"Accept-Language","value":"en-US,en;q=0.5"},{"name":"Accept-Encoding","value":"gzip, deflate"},{"name":"Referer","value":"http://www.smfms.cn/2016/fms_column.asp?col_id=11"},{"name":"Cookie","value":"ASPSESSIONIDQQBRSBAT=LBILHEGANAPBDEPEJHHKAFIC"}]} 
+2017-12-20T07:34:27.063Z [DEBUG] network: status change for http://www.smfms.cn/2016/include/css.css (2152398858): Waiting for www.smfms.cn…
+2017-12-20T07:34:27.064Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398851): Looking up www.smfms.cn…
+2017-12-20T07:34:27.064Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398859): Looked up www.smfms.cn…
+2017-12-20T07:34:27.064Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398855): Connecting to www.smfms.cn…
+2017-12-20T07:34:27.071Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398852): Connected to www.smfms.cn…
+2017-12-20T07:34:27.071Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398858): Waiting for www.smfms.cn…
+2017-12-20T07:34:27.076Z [DEBUG] network: resource #2 response 'start': http://www.smfms.cn/2016/include/css.css flags=
+2017-12-20T07:34:27.076Z [DEBUG] network: status change for http://www.smfms.cn/2016/include/css.css (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.076Z [DEBUG] network: request ignored: http://www.smfms.cn/2016/include/css.css flags:TRANSFERRING,IS_REQ,
+2017-12-20T07:34:27.076Z [DEBUG] network: progress total:32750/32750; uri: 5594/32750 for http://www.smfms.cn/2016/include/css.css
+2017-12-20T07:34:27.078Z [DEBUG] network: resource #2 response end status: http://www.smfms.cn/2016/include/css.css
+2017-12-20T07:34:27.078Z [DEBUG] network: request ignored: http://www.smfms.cn/2016/include/css.css flags:STOP,IS_REQ,
+2017-12-20T07:34:27.078Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398858): Waiting for www.smfms.cn…
+2017-12-20T07:34:27.086Z [DEBUG] network: resource #3 response 'start': http://www.smfms.cn/2016/js/jquery-2.0.0.min.js flags=
+2017-12-20T07:34:27.086Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.087Z [DEBUG] network: request ignored: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js flags:TRANSFERRING,IS_REQ,
+2017-12-20T07:34:27.087Z [DEBUG] network: progress total:35367/115845; uri: 2617/35367 for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js
+2017-12-20T07:34:27.093Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.093Z [DEBUG] network: progress total:36807/115845; uri: 4057/36807 for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js
+2017-12-20T07:34:27.095Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.096Z [DEBUG] network: progress total:41127/115845; uri: 8377/41127 for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js
+2017-12-20T07:34:27.102Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.102Z [DEBUG] network: progress total:48327/115845; uri: 15577/48327 for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js
+2017-12-20T07:34:27.103Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.103Z [DEBUG] network: progress total:52647/115845; uri: 19897/52647 for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js
+2017-12-20T07:34:27.109Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.109Z [DEBUG] network: progress total:54087/115845; uri: 21337/54087 for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js
+2017-12-20T07:34:27.109Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.109Z [DEBUG] network: progress total:56967/115845; uri: 24217/56967 for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js
+2017-12-20T07:34:27.111Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.111Z [DEBUG] network: progress total:75687/115845; uri: 42937/75687 for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js
+JavaScript strict warning: resource://gre/modules/ProfileAge.jsm, line 202: ReferenceError: reference to undefined property "reset"
+2017-12-20T07:34:27.116Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.116Z [DEBUG] network: progress total:77127/115845; uri: 44377/77127 for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js
+2017-12-20T07:34:27.117Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.117Z [DEBUG] network: progress total:81447/115845; uri: 48697/81447 for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js
+2017-12-20T07:34:27.118Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.118Z [DEBUG] network: progress total:82887/115845; uri: 50137/82887 for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js
+2017-12-20T07:34:27.118Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.118Z [DEBUG] network: progress total:87207/115845; uri: 54457/87207 for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js
+2017-12-20T07:34:27.118Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.119Z [DEBUG] network: progress total:88647/115845; uri: 55897/88647 for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js
+2017-12-20T07:34:27.119Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.119Z [DEBUG] network: progress total:91527/115845; uri: 58777/91527 for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js
+2017-12-20T07:34:27.119Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.119Z [DEBUG] network: progress total:94407/115845; uri: 61657/94407 for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js
+2017-12-20T07:34:27.119Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.119Z [DEBUG] network: progress total:97287/115845; uri: 64537/97287 for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js
+2017-12-20T07:34:27.120Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.120Z [DEBUG] network: progress total:100167/115845; uri: 67417/100167 for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js
+2017-12-20T07:34:27.120Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.120Z [DEBUG] network: progress total:103047/115845; uri: 70297/103047 for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js
+2017-12-20T07:34:27.120Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.120Z [DEBUG] network: progress total:104487/115845; uri: 71737/104487 for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js
+2017-12-20T07:34:27.121Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.121Z [DEBUG] network: progress total:105927/115845; uri: 73177/105927 for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js
+2017-12-20T07:34:27.121Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.121Z [DEBUG] network: progress total:110247/115845; uri: 77497/110247 for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js
+2017-12-20T07:34:27.121Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.121Z [DEBUG] network: progress total:113127/115845; uri: 80377/113127 for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js
+2017-12-20T07:34:27.122Z [DEBUG] network: status change for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js (2152398854): Transferring data from www.smfms.cn…
+2017-12-20T07:34:27.122Z [DEBUG] network: progress total:115845/115845; uri: 83095/115845 for http://www.smfms.cn/2016/js/jquery-2.0.0.min.js
+2017-12-20T07:34:27.123Z [DEBUG] network: resource #3 response end status: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js
+2017-12-20T07:34:27.123Z [DEBUG] network: request ignored: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js flags:STOP,IS_REQ,
+JavaScript warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 4: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 4: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 4: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 4: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 4: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 4: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 4: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 4: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 4: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 4: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 4: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 4: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 4: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 4: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 4: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 4: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 4: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 4: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 4: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 5: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 5: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 5: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 5: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 5: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 5: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 6: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 6: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 6: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 6: SyntaxError: test for equality (==) mistyped as assignment (=)?
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 6: SyntaxError: test for equality (==) mistyped as assignment (=)?
+2017-12-20T07:34:27.193Z [DEBUG] network: request ignored: http://dcs.conac.cn/js/02/029/0000/60661000/CA020290000606610000002.js flags:START,IS_REQ,
+2017-12-20T07:34:27.193Z [DEBUG] network: resource request #4 started: GET - http://dcs.conac.cn/js/02/029/0000/60661000/CA020290000606610000002.js flags=
+REQUEST:  {"id":4,"method":"GET","url":"http://dcs.conac.cn/js/02/029/0000/60661000/CA020290000606610000002.js","time":"2017-12-20T07:34:27.193Z","headers":[{"name":"Host","value":"dcs.conac.cn"},{"name":"User-Agent","value":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36"},{"name":"Accept","value":"*/*"},{"name":"Accept-Language","value":"en-US,en;q=0.5"},{"name":"Accept-Encoding","value":"gzip, deflate"},{"name":"Referer","value":"http://www.smfms.cn/2016/fms_column.asp?col_id=11"}]} 
+2017-12-20T07:34:27.235Z [DEBUG] network: status change for http://dcs.conac.cn/js/02/029/0000/60661000/CA020290000606610000002.js (2152398858): Waiting for dcs.conac.cn…
+2017-12-20T07:34:27.272Z [DEBUG] network: resource #4 response 'start': http://dcs.conac.cn/js/02/029/0000/60661000/CA020290000606610000002.js flags=
+2017-12-20T07:34:27.273Z [DEBUG] network: status change for http://dcs.conac.cn/js/02/029/0000/60661000/CA020290000606610000002.js (2152398854): Transferring data from dcs.conac.cn…
+2017-12-20T07:34:27.273Z [DEBUG] network: request ignored: http://dcs.conac.cn/js/02/029/0000/60661000/CA020290000606610000002.js flags:TRANSFERRING,IS_REQ,
+2017-12-20T07:34:27.273Z [DEBUG] network: progress total:116202/116202; uri: 357/116202 for http://dcs.conac.cn/js/02/029/0000/60661000/CA020290000606610000002.js
+2017-12-20T07:34:27.274Z [DEBUG] network: resource #4 response end status: http://dcs.conac.cn/js/02/029/0000/60661000/CA020290000606610000002.js
+2017-12-20T07:34:27.275Z [DEBUG] network: request ignored: http://dcs.conac.cn/js/02/029/0000/60661000/CA020290000606610000002.js flags:STOP,IS_REQ,
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 5: ReferenceError: reference to undefined property "triggered"
+JavaScript strict warning: http://www.smfms.cn/2016/js/jquery-2.0.0.min.js, line 4: ReferenceError: reference to undefined property "events"
+2017-12-20T07:34:27.285Z [DEBUG] network: main request http://www.smfms.cn/2016/fms_column.asp?col_id=11 flags:STOP,IS_DOC,
+2017-12-20T07:34:27.285Z [DEBUG] network: main request: ignored state
+2017-12-20T07:34:27.286Z [DEBUG] network: main request http://www.smfms.cn/2016/fms_column.asp?col_id=11 flags:STOP,IS_NET,IS_WIN,
+2017-12-20T07:34:27.286Z [DEBUG] network: main request: is loaded
+TRACE: Before Click----- success 
+ 第一次处理 
+HREF:http://www.smfms.cn/2016/fms_column.asp?cid= 
+ 第N次处理 0 
+TRACE: Having something console {"0":"entering  what is the change inn times 1","1":2,"2":"phantomjs://webpage.evaluate()","3":"log","4":"","5":1513755267305} 
+TRACE: Having something console {"0":"before slicing ----  jump length 2","1":23,"2":"phantomjs://webpage.evaluate()","3":"log","4":"","5":1513755267312} 
+TRACE: Having something console {"0":"now the sliceing part index start 0","1":24,"2":"phantomjs://webpage.evaluate()","3":"log","4":"","5":1513755267313} 
+TRACE: Having something console {"0":"jump length 2","1":26,"2":"phantomjs://webpage.evaluate()","3":"log","4":"","5":1513755267313} 
+TRACE: Having something console {"0":"keys is <img id=\"wechat\" src=\"icons/weixin.png\" border=\"0\">","1":28,"2":"phantomjs://webpage.evaluate()","3":"log","4":"","5":1513755267313} 
+TRACE: Having something console {"0":"afterimg the task----------","1":30,"2":"phantomjs://webpage.evaluate()","3":"log","4":"","5":1513755267314} 
+TRACE: Having something console {"0":"afterimg the file finishing ----------","1":32,"2":"phantomjs://webpage.evaluate()","3":"log","4":"","5":1513755267314} 
+TRACE: Having something console {"0":"keys is <button style=\"border:0px;width:22px; height:22px; background-image: url('icons/search.png')\"></button>","1":28,"2":"phantomjs://webpage.evaluate()","3":"log","4":"","5":1513755267314} 
+TRACE: Having something console {"0":"afterimg the task----------","1":30,"2":"phantomjs://webpage.evaluate()","3":"log","4":"","5":1513755267315} 
+TRACE: Having something console {"0":"afterimg the file finishing ----------","1":32,"2":"phantomjs://webpage.evaluate()","3":"log","4":"","5":1513755267315} 
+TRACE: Having something console {"0":"为什么就是执行不到这里呢","1":34,"2":"phantomjs://webpage.evaluate()","3":"log","4":"","5":1513755267315} 
+TRACE: After Click------ 
+HREF:http://www.smfms.cn/2016/ 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=12 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=13 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=14 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=15 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=16 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=21 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=21 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=22 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=31 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=31 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=32 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=33 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=41 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=41 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=42 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=43 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=44 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=45 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=51 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=51 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=52 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=53 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=54 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=61 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=61 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=62 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=63 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=64 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=71 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=71 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=72 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=73 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=74 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=75 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=76 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=81 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=81 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=82 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=83 
+HREF:http://www.smfms.cn/2016/ 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=11#home 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=11#home 
+HREF:http://www.smfms.cn/2016/ 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=12 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=12 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=13 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=13 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=14 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=14 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=15 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=15 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=16 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=16 
+HREF:http://www.smfms.cn/2016/fms_page.asp?col_id=11&con_id=1 
+HREF:http://www.smfms.cn/2016/fms_page.asp?col_id=11&con_id=1 
+HREF:http://www.smfms.cn/2016/fms_page.asp?col_id=11&con_id=1 
+HREF:http://www.smfms.cn/2016/fms_page.asp?col_id=11&con_id=105 
+HREF:http://www.smfms.cn/2016/fms_page.asp?col_id=11&con_id=105 
+HREF:http://www.smfms.cn/2016/fms_page.asp?col_id=11&con_id=105 
+HREF:http://www.smfms.cn/2016/fms_page.asp?col_id=11&con_id=111 
+HREF:http://www.smfms.cn/2016/fms_page.asp?col_id=11&con_id=111 
+HREF:http://www.smfms.cn/2016/fms_page.asp?col_id=11&con_id=111 
+HREF:http://www.smfms.cn/2016/fms_page.asp?col_id=11&con_id=106 
+HREF:http://www.smfms.cn/2016/fms_page.asp?col_id=11&con_id=106 
+HREF:http://www.smfms.cn/2016/fms_page.asp?col_id=11&con_id=106 
+HREF:http://www.smfms.cn/2016/fms_page.asp?col_id=11&con_id=112 
+HREF:http://www.smfms.cn/2016/fms_page.asp?col_id=11&con_id=112 
+HREF:http://www.smfms.cn/2016/fms_page.asp?col_id=11&con_id=112 
+HREF:http://www.smfms.cn/2016/fms_page.asp?col_id=11&con_id=109 
+HREF:http://www.smfms.cn/2016/fms_page.asp?col_id=11&con_id=109 
+HREF:http://www.smfms.cn/2016/fms_page.asp?col_id=11&con_id=109 
+HREF:http://www.smfms.cn/2016/fms_page.asp?col_id=11&con_id=108 
+HREF:http://www.smfms.cn/2016/fms_page.asp?col_id=11&con_id=108 
+HREF:http://www.smfms.cn/2016/fms_page.asp?col_id=11&con_id=108 
+HREF:http://www.smfms.cn/2016/fms_page.asp?col_id=11&con_id=107 
+HREF:http://www.smfms.cn/2016/fms_page.asp?col_id=11&con_id=107 
+HREF:http://www.smfms.cn/2016/fms_page.asp?col_id=11&con_id=107 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=01 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=02 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=03 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=04 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=05 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=06 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=07 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=a1 
+HREF:http://www.smfms.cn/2016/fms_column.asp?col_id=b1 
+HREF:http://bszs.conac.cn/sitename?method=show&id=54A8EA07D01A0461E053022819AC45BC 
+HREF:http://www.miitbeian.gov.cn/ 
+HREF:http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011202006611 
+JavaScript error: resource://slimerjs/addon-sdk/toolkit/loader.js -> resource://slimerjs/slimer-sdk/webpage.js, line 417: TypeError: win is null
+HREF:http://webscan.360.cn/index/checkwebsite/url/www.smfms.cn 
+JavaScript error: resource://slimerjs/addon-sdk/toolkit/loader.js -> resource://slimerjs/slimer-sdk/webpage.js, line 417: TypeError: win is null
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: , line 0: too much recursion
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+JavaScript error: chrome://slimerjs/content/webpage.js, line 9: TypeError: browser.stop is not a function
+TRACE: Exit----- 
+2017-12-20T07:34:29.340Z [DEBUG] webpage: close
+/usr/share/node/scanner-core/crawl/node_modules/slimerjs/src/slimerjs: line 167: 25091 Segmentation fault      "$SLIMERJSLAUNCHER" -app "$SLIMERDIR/application.ini" $PROFILE -no-remote "$@"
