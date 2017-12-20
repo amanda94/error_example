@@ -79,7 +79,6 @@ page.onUrlChanged = function(targetUrl) {
     tools.Trace("Url Before Go back")
     page.urlChangedTimes = page.urlChangedTimes || 0; //todo: 自己加的属性
     page.urlChangedTimes++;
-    page.goBack()
     tools.Trace("After Url Go back", page.urlChangedTimes)
 };
 
@@ -138,64 +137,58 @@ page.open(requestUrl,function(status){
     }
     tools.Trace("Before Click-----",status)
     //page.injectJs("./operation.js");
-    if(page.urlChangedTimes <= 1){
-        console.error(" 第一次处理")
-        page.navigationLocked = true; //在锁住的时候 原地跳的表单拿不到数据
-        page.evaluate(function () {
-            //fillIn();
-            Array.prototype.forEach.call(document.getElementsByTagName("form"), function(item){
-                item.target = "_blank";
-            })
-            Array.prototype.forEach.call(document.getElementsByTagName("a"), function(item){
-                item.target = "_blank";
-            })
-            Array.prototype.forEach.call(document.getElementsByTagName("*"), function(item){
-                if(item.type == "submit" || item.tagName == "A" || item.onclick || item.lastListenerInfo){
-                    item.click()
-                    //fillIn();//为了填充每次点击带来的潜在的input 是否有更好的办法？？
-                }
-            })
-        })
-    }
+    console.error(" 第一次处理")
+	page.navigationLocked = true; //在锁住的时候 原地跳的表单拿不到数据
+	page.evaluate(function () {
+		//fillIn();
+		Array.prototype.forEach.call(document.getElementsByTagName("form"), function(item){
+			item.target = "_blank";
+		})
+		Array.prototype.forEach.call(document.getElementsByTagName("a"), function(item){
+			item.target = "_blank";
+		})
+		Array.prototype.forEach.call(document.getElementsByTagName("*"), function(item){
+			if(item.type == "submit" || item.tagName == "A" || item.onclick || item.lastListenerInfo){
+				item.click()
+				//fillIn();//为了填充每次点击带来的潜在的input 是否有更好的办法？？
+			}
+		})
+	})
     console.error(" 第N次处理",page.urlChangedTimes -1 )
-    if(page.urlChangedTimes < 3){
-        page.navigationLocked = false;
-        page.evaluate(function (changeTimes) {
-            console.log("entering  what is the change inn times", changeTimes)
-            //fillIn();
-            Array.prototype.forEach.call(document.getElementsByTagName("form"), function(item){
-                item.target = "_blank";
-            })
-            Array.prototype.forEach.call(document.getElementsByTagName("a"), function(item){
-                item.target = "_blank";
-            })
-            changeTimes = changeTimes || 1;
-            changeTimes -= 1;
-            var jumpItems = Array.prototype.filter.call(document.getElementsByTagName("*"), function(item){
-                var unvalidHref = ["javascript:void(0)", "javascript:", "", null]
-                if(item.tagName == "A" && !unvalidHref.includes(item.href)){
-                    // 这种就不点了--a 链接可以做的事情在锁着的时候应该已经搞定
-                    return false
-                }
-                if(item.type == "submit" || item.onclick || item.lastListenerInfo ){ //
-                    return true;
-                }
-            })
+    page.navigationLocked = false;
+    page.evaluate(function (changeTimes) {
+		console.log("entering  what is the change inn times", changeTimes)
+		//fillIn();
+		Array.prototype.forEach.call(document.getElementsByTagName("form"), function(item){
+			item.target = "_blank";
+		})
+		Array.prototype.forEach.call(document.getElementsByTagName("a"), function(item){
+			item.target = "_blank";
+		})
+	   
+		var jumpItems = Array.prototype.filter.call(document.getElementsByTagName("*"), function(item){
+			var unvalidHref = ["javascript:void(0)", "javascript:", "", null]
+			if(item.tagName == "A" && !unvalidHref.includes(item.href)){
+				// 这种就不点了--a 链接可以做的事情在锁着的时候应该已经搞定
+				return false
+			}
+			if(item.type == "submit" || item.onclick || item.lastListenerInfo ){ //
+				return true;
+			}
+		})
 
-            console.log("before slicing ----  jump length", jumpItems.length)
-            console.log("now the sliceing part index start",changeTimes )
-            jumpItems = jumpItems.slice(changeTimes) //todo: 这里还是有问题的，因为并不清楚地址跳转是到第几个触发的
-            console.log("jump length", jumpItems.length)
-            jumpItems.forEach(function (item, key) {
-                console.log("keys is", item.outerHTML)
-                item.click()
-                console.log("afterimg the task----------")
-                //fillIn();
-                console.log("afterimg the file finishing ----------")
-            })
-            console.log("为什么就是执行不到这里呢")
-        }, page.urlChangedTimes)
-    }
+		console.log("before slicing ----  jump length", jumpItems.length)
+		console.log("now the sliceing part index start",changeTimes )
+		console.log("jump length", jumpItems.length)
+		jumpItems.forEach(function (item, key) {
+			console.log("keys is", item.outerHTML)
+			item.click()
+			console.log("afterimg the task----------")
+			//fillIn();
+			console.log("afterimg the file finishing ----------")
+		})
+		console.log("为什么就是执行不到这里呢")
+    }, page.urlChangedTimes)
 
     tools.Trace("After Click------")
 
